@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <!-- conteudo principal da pagina-->
+
+    <main id="container">
+
+        <!-- imagem principal-->
+
+        <section id="img">
+            <img src="assets/imagem.svg" alt="imagem">
+        </section>
+
+        <!-- html da calculadora -->
+
+        <section id="calculator">
+
+           <form action="" method="get" id="form">
+            <h1 id="title">Cadastro de produtos</h1>
+
+            <!-- input que receber o peso do usuario-->
+
+             <div class="input-box">
+
+               <label for="weight">
+                Nome:
+               </label>
+               <div class="input-field">
+               <i class="fa-solid fa-file-signature"></i>
+               <input type="text" id="weight" required>
+               </div>
+               
+            <!-- input que receber o peso do usuario-->
+
+             <div class="input-box">
+
+               <label for="weight">
+                ID:
+               </label>
+               <div class="input-field">
+               <i class="fa-solid fa-address-card"></i>
+               <input type="number" id="weight" required>
+               </div>
+               
+             <div class="input-box">
+
+               <label for="weight">
+                Tipo:
+               </label>
+               <div class="input-field">
+               <i class="fa-solid fa-briefcase"></i>
+               <input type="text" id="weight" required>
+               </div>
+
+            <!-- input que receber o peso do usuario-->
+
+            <div class="input-box">
+
+                <label for="height">
+                 Foto:
+                </label>
+                <div class="input-field">
+                <i class="fa-solid fa-record-vinyl"></i>
+                <input type="file" id="height" required>
+                </div>
+                
+                <div id="button-calculate">
+
+                <button class="calculate">
+                    Cadastra
+                </button>
+
+            </div>
+           </form>
+        </section>
+
+    </main>
+    <script src="scripts/função.py"></script>
+</body>
+</html>
